@@ -135,6 +135,6 @@ Forum
 
 <img class=\"my-5 border-bg\" src=\"{{ asset ('assets/img/wip.jpg')}}\" alt=\"en cours de création\">
 
-{% endblock main %}", "public/forum.html.twig", "C:\\Users\\formation\\Desktop\\2.6.1 projet-coaching prod\\templates\\public\\forum.html.twig");
+{% endblock main %}", "public/forum.html.twig", "C:\\Users\\formation\\Desktop\\v2.1-projet-coaching-main\\templates\\public\\forum.html.twig");
     }
 }

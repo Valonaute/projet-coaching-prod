@@ -288,7 +288,7 @@ class __TwigTemplate_e917e0f0ed044a3da7ad1ae32c6496e1 extends Template
         </main>
 
         <footer>
-            <section id=\"nav-column\" class=\"footer-desktop\">
+            <section id=\"nav-column\" >
                 <section class=\"nav-column\"> 
                     <h2><a href=\"https://coachingdevperso.fr\">Coaching</a> </h2>
                     <h2><a href=\"https://coachingdevperso.fr\">Dev-Perso.fr</a> </h2>
@@ -297,7 +297,7 @@ class __TwigTemplate_e917e0f0ed044a3da7ad1ae32c6496e1 extends Template
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("assets/img/logo.png"), "html", null, true);
         echo "\" alt=\"logo\"></a>
                 </section>
-                <section class=\"nav-column\"> 
+                <section class=\"nav-column footer-desktop\"> 
                     <nav>
                         <h3>Navigation</h3>
                         <a href=\"";
@@ -322,7 +322,7 @@ class __TwigTemplate_e917e0f0ed044a3da7ad1ae32c6496e1 extends Template
         echo "\">On Recrute </a></button>
                     </nav>
                 </section>
-                <section class=\"nav-column\">
+                <section class=\"nav-column footer-desktop\">
                     <nav>
                         <h3>Suivez-nous</h3>
                         <a href=\"https://instagram.com/coaching.devperso\" target =\"_blank\">Instagram</a>
@@ -373,25 +373,22 @@ class __TwigTemplate_e917e0f0ed044a3da7ad1ae32c6496e1 extends Template
                 </span>
             </a>
 
-
-            <section id=\"espace\">
-            </section>
             <section id=\"footer\">
                 <h4> &copy; 2023 EASYWEBFACTORY INC. </h4>
                 <p> Made with 🤍</p>
                 <nav>
                     <a href=\"";
-        // line 169
+        // line 166
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("cgu");
         echo "\">CGU / CGV </a>
                     <p> | </p>
                     <a href=\"";
-        // line 171
+        // line 168
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("cgu");
         echo "\">Mentions Légales</a>
                     <p> | </p>
                     <a href=\"";
-        // line 173
+        // line 170
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("cgu");
         echo "\">Politique de confidentialité</a>
                 </nav>
@@ -544,7 +541,7 @@ class __TwigTemplate_e917e0f0ed044a3da7ad1ae32c6496e1 extends Template
 
     public function getDebugInfo()
     {
-        return array (  525 => 104,  515 => 103,  504 => 100,  494 => 99,  483 => 96,  473 => 95,  463 => 17,  453 => 16,  442 => 14,  432 => 13,  413 => 5,  395 => 173,  390 => 171,  385 => 169,  357 => 144,  353 => 143,  349 => 142,  345 => 141,  341 => 140,  321 => 123,  317 => 122,  313 => 121,  309 => 120,  305 => 119,  297 => 114,  287 => 106,  285 => 103,  282 => 102,  280 => 99,  277 => 98,  275 => 95,  272 => 94,  266 => 93,  257 => 90,  252 => 89,  247 => 88,  243 => 87,  225 => 71,  219 => 69,  217 => 68,  214 => 67,  208 => 65,  202 => 62,  197 => 60,  193 => 59,  187 => 58,  182 => 57,  180 => 56,  176 => 55,  172 => 54,  168 => 53,  162 => 52,  156 => 48,  150 => 46,  148 => 45,  145 => 44,  139 => 42,  132 => 38,  127 => 36,  123 => 35,  117 => 34,  112 => 33,  110 => 32,  106 => 31,  102 => 30,  98 => 29,  91 => 27,  80 => 19,  77 => 18,  74 => 16,  72 => 13,  68 => 12,  59 => 6,  55 => 5,  49 => 1,);
+        return array (  522 => 104,  512 => 103,  501 => 100,  491 => 99,  480 => 96,  470 => 95,  460 => 17,  450 => 16,  439 => 14,  429 => 13,  410 => 5,  392 => 170,  387 => 168,  382 => 166,  357 => 144,  353 => 143,  349 => 142,  345 => 141,  341 => 140,  321 => 123,  317 => 122,  313 => 121,  309 => 120,  305 => 119,  297 => 114,  287 => 106,  285 => 103,  282 => 102,  280 => 99,  277 => 98,  275 => 95,  272 => 94,  266 => 93,  257 => 90,  252 => 89,  247 => 88,  243 => 87,  225 => 71,  219 => 69,  217 => 68,  214 => 67,  208 => 65,  202 => 62,  197 => 60,  193 => 59,  187 => 58,  182 => 57,  180 => 56,  176 => 55,  172 => 54,  168 => 53,  162 => 52,  156 => 48,  150 => 46,  148 => 45,  145 => 44,  139 => 42,  132 => 38,  127 => 36,  123 => 35,  117 => 34,  112 => 33,  110 => 32,  106 => 31,  102 => 30,  98 => 29,  91 => 27,  80 => 19,  77 => 18,  74 => 16,  72 => 13,  68 => 12,  59 => 6,  55 => 5,  49 => 1,);
     }
 
     public function getSourceContext()
@@ -658,13 +655,13 @@ class __TwigTemplate_e917e0f0ed044a3da7ad1ae32c6496e1 extends Template
         </main>
 
         <footer>
-            <section id=\"nav-column\" class=\"footer-desktop\">
+            <section id=\"nav-column\" >
                 <section class=\"nav-column\"> 
                     <h2><a href=\"https://coachingdevperso.fr\">Coaching</a> </h2>
                     <h2><a href=\"https://coachingdevperso.fr\">Dev-Perso.fr</a> </h2>
                     <a href=\"https://coachingdevperso.fr\"><img src=\"{{ asset ('assets/img/logo.png')}}\" alt=\"logo\"></a>
                 </section>
-                <section class=\"nav-column\"> 
+                <section class=\"nav-column footer-desktop\"> 
                     <nav>
                         <h3>Navigation</h3>
                         <a href=\"{{ path ('home') }}\">Accueil</a>
@@ -674,7 +671,7 @@ class __TwigTemplate_e917e0f0ed044a3da7ad1ae32c6496e1 extends Template
                         <button><a href=\"{{ path ('careers') }}\">On Recrute </a></button>
                     </nav>
                 </section>
-                <section class=\"nav-column\">
+                <section class=\"nav-column footer-desktop\">
                     <nav>
                         <h3>Suivez-nous</h3>
                         <a href=\"https://instagram.com/coaching.devperso\" target =\"_blank\">Instagram</a>
@@ -710,9 +707,6 @@ class __TwigTemplate_e917e0f0ed044a3da7ad1ae32c6496e1 extends Template
                 </span>
             </a>
 
-
-            <section id=\"espace\">
-            </section>
             <section id=\"footer\">
                 <h4> &copy; 2023 EASYWEBFACTORY INC. </h4>
                 <p> Made with 🤍</p>

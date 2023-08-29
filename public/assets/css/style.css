@@ -513,6 +513,62 @@ ul {
     margin: 6px 0;
   }
 
+  /* Sidenav menu footer*/
+.sidenavFooter {
+    height: 700px;
+    width: 260px;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    /* left: -250px; */
+    right: -260px;
+    background-color: var(--background);
+    padding-top: 60px;
+    transition: right 0.7s ease;
+  }
+  
+  /* Sidenav menu links */
+  .sidenavFooter a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: var(--link);
+    display: block;
+    transition: 0.4s;
+  }
+  
+  .sidenavFooter a:hover {
+    color: var(--background);
+    background-color: var(--buttons);
+  }
+  
+  .sidenavFooter ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Active class */
+  .sidenavFooter.active {
+    right: 0;
+  }
+  
+  /* Close btn */
+  .sidenavFooter .close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+  /* Icône burger */
+  .burger-icon span {
+    display: none;
+    width: 35px;
+    height: 5px;
+    background-color: var(--link);
+    margin: 6px 0;
+  }
 /* ----- Carousel ----- */
 
 #carousel {
@@ -581,7 +637,19 @@ ul {
     .menu {
         display: flex;
         flex-direction: column;
-        
+
+    }
+    #footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #footer nav {
+        margin-right: 0;
+    }
+    #nav-column {
+        margin-left: auto;
     }
 
 
